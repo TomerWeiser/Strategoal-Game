@@ -8,6 +8,9 @@ Strategoal is a two-player LAN-based strategy game developed in 2018 as a school
 * **Context:** High school computer science project
 * **Goal:** Develop a multiplayer network game using Python
 
+## Important Setup Note
+🚨 **IMPORTANT:** If the project includes a "Graphics" folder, extract ALL files from this folder directly into the main project folder for the game to function correctly.
+
 ## Features
 * **Multiplayer gameplay:** Two players can connect over a LAN and compete
 * **Graphical game interface:** Powered by Pygame for an interactive and engaging game experience
@@ -23,20 +26,20 @@ Strategoal is a two-player LAN-based strategy game developed in 2018 as a school
 
 ## Installation and Setup
 1. Clone the repository from GitHub
-2. Ensure you have Python 2 installed
-3. Install required libraries:
+2. If a "Graphics" folder exists, extract ALL its contents to the main project folder
+3. Ensure you have Python 2 installed
+4. Install required libraries:
    ```sh
    pip install pygame sqlite3
    ```
-4. Run the server:
+5. Run the server:
    ```sh
    python Server.py
    ```
-5. Run the client:
+6. Run the client:
    ```sh
    python Client.py
    ```
-6. Ensure `Constants.py` is included in the repository before running the game
 
 ## How to Play
 * Start the server and wait for a player to connect
@@ -51,10 +54,10 @@ Strategoal is a two-player LAN-based strategy game developed in 2018 as a school
 * Strategic placement and movement are key to victory
 * Pieces can be captured based on their relative ranks
 
-## Leaderboard
-* Create a player account
-* Track your wins and losses
-* Compete and improve your ranking
+## Troubleshooting
+* If the game fails to launch, ensure all files from the "Graphics" folder are extracted to the main project directory
+* Verify that all required libraries are installed
+* Check that you are using Python 2.x
 
 ## Note
 This project was developed as a school project in 2018, showcasing early programming skills in network game development.
