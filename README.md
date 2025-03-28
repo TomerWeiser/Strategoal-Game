@@ -9,7 +9,7 @@ Strategoal is a two-player LAN-based strategy game developed in 2018 as a school
 * **Goal:** Develop a multiplayer network game using Python
 
 ## Important Setup Note
-🚨 **IMPORTANT:** If the project includes a "Graphics" folder, extract ALL files from this folder directly into the main project folder for the game to function correctly.
+🚨 **IMPORTANT:** If the project on your computer includes the "Graphics" folder, extract ALL files from this folder directly into the main project folder for the game to function correctly.
 
 ## Features
 * **Multiplayer gameplay:** Two players can connect over a LAN and compete
